@@ -31,7 +31,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'winpro.urls'
+ROOT_URLCONF = 'entry_point.urls'
 
 TEMPLATES = [
     {
@@ -49,7 +49,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'winpro.wsgi.application'
+WSGI_APPLICATION = 'entry_point.wsgi.application'
 
 DATABASES = {
     'default': {
